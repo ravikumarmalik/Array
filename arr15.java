@@ -1,3 +1,9 @@
+/*
+
+print pairs of number using array.
+
+*/
+
 public class arr15 {
     public static void pairsOfNumber(int[] num) {
         int total=0;
