@@ -1,5 +1,5 @@
 # Array
-Array is the collection of same same data type.
+Array is the collection of same data type.
 Array stores a fixed-size sequential collection of elements of the same type.
 And array starting from '0' index.
 
