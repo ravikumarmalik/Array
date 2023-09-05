@@ -9,7 +9,7 @@ And array starting from '0' index.
 3. Elements of the array can be randomly accessed since we can calculate the address of each element of the array with the given base address and the size of the data element.
 
 # Why are arrays required?
-	Arrays are useful because -
+	# Arrays are useful because -
 	1.Sorting and searching a value in an array is easier.
 	2.Arrays are best to process multiple values quickly and easily.
 	3. Arrays are good for storing multiple values in a single variable
@@ -17,7 +17,9 @@ And array starting from '0' index.
 	
 # Memory allocation of an array
 
-As stated above, all the data elements of an array are stored at contiguous locations in the main memory. The name of the array represents the base address or the address of the first element in the main memory. Each element of the array is represented by proper indexing.
+As stated above, all the data elements of an array are stored at contiguous locations in the main memory. 
+The name of the array represents the base address or the address of the first element in the main memory. 
+Each element of the array is represented by proper indexing.
 
 We can define the indexing of an array in the below ways -
 1. 0 (zero-based indexing): The first element of the array will be arr[0].
@@ -32,11 +34,11 @@ We can define the indexing of an array in the below ways -
 5. Update - It updates an element at a particular index.
 
 # Time Complexity
-Operation	Average Case	Worst Case
-Access	O(1)	O(1)
-Search	O(n)	O(n)
-Insertion	O(n)	O(n)
-Deletion	O(n)	O(n)
+Operation		Average Case		Worst Case
+Access	O(1)		O(1)
+Search	O(n)		O(n)
+Insertion		O(n)			O(n)
+Deletion		O(n)			O(n)
 
 # Space Complexity
 In array, space complexity for worst case is O(n).
@@ -46,7 +48,7 @@ In array, space complexity for worst case is O(n).
 syntax:-
 	dataType[] arrayName;
 	
-Creating Arrays
+# Creating Arrays
 You can create an array by using the new operator with the following syntax −
 
 	dataType[] arrayName = new dataType[arraySize];
@@ -63,7 +65,7 @@ ex-
 	2. The array's length is 10, which means we can store 10 elements.
 	3. Each element in the array can be accessed via its index.
 	
-Processing Arrays
+# Processing Arrays
 When processing array elements, we often use either for loop or foreach loop because all of the elements in an array are of the same type and the size of the array is known.
 
 The foreach Loops
