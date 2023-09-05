@@ -9,7 +9,7 @@ And array starting from '0' index.
 3. Elements of the array can be randomly accessed since we can calculate the address of each element of the array with the given base address and the size of the data element.
 
 # Why are arrays required?
-	# Arrays are useful because -
+	Arrays are useful because -
 	1.Sorting and searching a value in an array is easier.
 	2.Arrays are best to process multiple values quickly and easily.
 	3. Arrays are good for storing multiple values in a single variable
@@ -21,7 +21,7 @@ As stated above, all the data elements of an array are stored at contiguous loca
 The name of the array represents the base address or the address of the first element in the main memory. 
 Each element of the array is represented by proper indexing.
 
-We can define the indexing of an array in the below ways -
+# We can define the indexing of an array in the below ways -
 1. 0 (zero-based indexing): The first element of the array will be arr[0].
 2. 1 (one-based indexing): The first element of the array will be arr[1].
 3. n (n - based indexing): The first element of the array can reside at any random index number.
@@ -68,7 +68,7 @@ ex-
 # Processing Arrays
 When processing array elements, we often use either for loop or foreach loop because all of the elements in an array are of the same type and the size of the array is known.
 
-The foreach Loops
+# The fo-reach Loops
 JDK 1.5 introduced a new for loop known as foreach loop or enhanced for loop, which enables you to traverse the complete array sequentially without using an index variable.
 
 
@@ -92,7 +92,7 @@ public class arr {
 
 
 
-Passing Arrays to Methods
+# Passing Arrays to Methods
 Just as you can pass primitive type values to methods, you can also pass arrays to methods. For example, the following method displays the elements in an int array −
 
 
@@ -124,7 +124,6 @@ public static void printArray(int[] array) {
 The syntax of declaring two dimensional array is very much similar to that of a one dimensional array, given as follows.
 
 int arr[max_rows][max_columns];   
-
 
 for ( int i=0; i<n ;i++)  
 {
