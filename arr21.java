@@ -14,7 +14,7 @@ public class arr21 {
         return maxProfit;
     }
     public static void main(String[] args) {
-        int[] price={7,1,5,3,6,4};
+        int[] price={7,1,5,3,6,4}; //today's price
         System.out.println("maximum profit:"+buyAndSellingPrice(price));//maximum profit:5
     }
 }
